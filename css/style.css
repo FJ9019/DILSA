@@ -150,6 +150,7 @@
     color: var(--light);
 }
 
+
 /*** Service ***/
 .service-item {
     background: var(--light);
@@ -169,6 +170,16 @@
     color: var(--light) !important;
 }
 
+
+/** About **/
+.mb-3 strong {
+    font-size: 20px;
+}
+
+ p::first-letter {
+    color: #06BBCC;
+    font-size: 20px;
+}
 
 /** Footer **/
 .collapse-img img {
