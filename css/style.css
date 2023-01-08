@@ -176,7 +176,7 @@
     font-size: 20px;
 }
 
- p::first-letter {
+.text-0::first-letter {
     color: #06BBCC;
     font-size: 20px;
 }
