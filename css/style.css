@@ -170,7 +170,7 @@ img {
   vertical-align: middle;
 }
 
-.btn {
+.btn-0 {
   color: #ffffff;
   padding: 0.8rem;
   font-size: 14px;
@@ -184,7 +184,7 @@ img {
   background: transparent;
 }
 
-.btn:hover {
+.btn-0:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
