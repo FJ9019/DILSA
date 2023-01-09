@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: #1a398b;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -212,7 +212,7 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  background: linear-gradient(to bottom left, #1a398b 40%, #1a398b 100%);
 }
 
 .card_title {
