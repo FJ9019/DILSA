@@ -153,7 +153,42 @@
     color: var(--light);
 }
 
+/** DILSA Text **/
+.service-heading h2 {
+  margin-left: -30px !important;
+}
 
+.service-footer  {
+  margin-left: 300px !important;
+}
+
+.service-wrapper .service-footer {
+  max-width: 720px;
+}
+
+.service-work.card {
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+
+.service-work .service-work-vertical {
+	background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s;
+}
+
+.service-work .service-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+
+.service-work .service-work-vertical:hover * {
+  color: #000;
+  border-color: #000;
+  transition: .5s;
+}
 
 /** Services **/
 h1 {
@@ -165,6 +200,14 @@ h1 {
 .main {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.main h5 {
+  display: block;
+  width: 80%;
+  margin: 0 98px;
+  color: #9b9b9b;
+  font-size: 18px;
 }
 
 img {

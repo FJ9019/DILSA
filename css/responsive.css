@@ -47,6 +47,15 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .service-heading h2 {
+      margin-left: -30px !important;
+    }
+    
+    .service-footer  {
+      margin-left: 30px !important;
+    }
+    
 }
 
 /*** Service ***/
@@ -66,6 +75,14 @@
 @media only screen and (max-width: 768px){
   .styled-input {
       width:100%;
+  }
+
+  .main h5 {
+    display: block;
+    width: 86%;
+    margin: 0 20px;
+    color: #9b9b9b;
+    font-size: 18px;
   }
 }
 
