@@ -601,11 +601,10 @@ input[type=checkbox]:checked + label {
 
 
 /** Footer **/
-.container-fluid {
+#container-fluid {
   margin-left: 14px;
   margin-right: 14px;
 } 
-
 .collapse-img img {
     width: 100%;
     max-width: 100%;
