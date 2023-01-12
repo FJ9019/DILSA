@@ -79,9 +79,7 @@
 }
 
 
-/*** Navbar ***/
-/* header */
-  
+/*** Navbar ***/ 
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -198,7 +196,6 @@
     width: 130px;
 }
 
-<<<<<<< HEAD
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -214,29 +211,6 @@
   overflow: hidden;
   background-color: #fff;
 }
-=======
-/* 48em = 768px */
-  
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-}
-
-
-
->>>>>>> 359d129c9f8d7ffe17ab33c163f8189e216a0154
 
 .header li a {
   display: block;
@@ -343,6 +317,11 @@
 
 
 /*** Header carousel ***/
+.owl-carousel-item {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
 .header-carousel .owl-nav {
     position: absolute;
     top: 50%;
@@ -622,6 +601,11 @@ input[type=checkbox]:checked + label {
 
 
 /** Footer **/
+.container-fluid {
+  margin-left: 14px;
+  margin-right: 14px;
+} 
+
 .collapse-img img {
     width: 100%;
     max-width: 100%;
