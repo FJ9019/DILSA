@@ -44,6 +44,15 @@
     .service-footer  {
       margin-left: 30px !important;
     }
+
+    /*** Patner Slide ***/
+    .container-slide {
+      padding-top: 20px;
+      margin-bottom: 50px;
+      margin-left: 20px;
+      margin-right: 30px;
+      width: 92%;
+    }
     
 }
 
