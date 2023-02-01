@@ -53,6 +53,14 @@
       margin-right: 30px;
       width: 92%;
     }
+
+    .slick-slide {
+      margin: 0 20px;
+    }
+    
+    .slick-slide img {
+      width: 100%;
+    }
     
 }
 
