@@ -64,6 +64,109 @@
     
 }
 
+/*** Stock ***/
+/* Large desktop */
+@media (min-width: 980px) {
+  .gallery_item_list {
+    width: 50% !important;
+  }
+
+  .gallery_item {
+    width: 24.45%;
+  }
+
+  .gallery_item_preview a img {
+    height: 180px;
+  }
+
+  .box {
+    width: 60%;
+    max-height: 550px;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .gallery_item_list {
+    width: 60% !important;
+  }
+
+  .gallery_item {
+    width: 32.83%;
+  }
+
+  .gallery_item_preview a img {
+    height: 180px;
+  }
+
+  .box {
+    width: 70%;
+    max-height: 550px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .gallery_item_list {
+    width: 70% !important;
+  }
+
+  .gallery_item {
+    width: 49.3%;
+  }
+
+  .gallery_item_preview a img {
+    height: 180px;
+  }
+
+  .box {
+    margin: auto;
+    padding: 4em 1em 1em 1em;
+    width: 80%;
+    height: 500px;
+  }
+
+  .cl {
+    top: 0;
+    right: 0.5em;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .gallery_item_list {
+    width: 100% !important;
+  }
+
+  .gallery_item {
+    width: 100%;
+  }
+
+  .gallery_item_preview a img {
+    height: 200px;
+  }
+
+  .box {
+    background: #F8F8F8;
+    padding: 4em 1em 1em 1em;
+    width: 100%;
+    height: auto;
+  }
+
+  .cl {
+    top: 0;
+    right: 0.5em;
+  }
+
+  .gallery_item_list {
+    width: 100% !important;
+  }
+
+}
+
+
+
+
 /*** Service ***/
 @media (min-width: 40rem) {
   .cards_item {
