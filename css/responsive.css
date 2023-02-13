@@ -65,25 +65,33 @@
 }
 
 /*** Stock ***/
-@media (min-width:576px) {
-	.card-columns.listfeaturedtag {
-		-webkit-column-count:2;
-		-moz-column-count:2;
-		column-count:2;
-	}
+@media (max-width: 500px) {
+  .tm-section-header { 
+    padding: 20px; 
+  }
 }
 
-@media (max-width:1024px) {
-	.post-top-meta .col-md-10 {
-		text-align:center;
-	}
-}
-@media (max-width:767px) {
-	.post-top-meta.authorpage {
-		text-align:center;
-	}
+@media (max-width: 992px) {
+  .tm-media-body { 
+    width: auto; 
+  }
 }
 
+@media (max-width: 480px) {
+  .tm-media { 
+    flex-direction: column; 
+  }
+
+  .tm-media-img { 
+    width: auto; 
+  }
+  
+  .tm-media-body {
+      max-width: 300px;
+      margin-right: 0;
+      margin-top: 20px;
+  }
+}
 
 
 /*** Service ***/

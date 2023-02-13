@@ -462,28 +462,65 @@
 
 
 /** Stock **/
-.gallery  {
-  margin-top: 35px;
-  margin-left: 10px;
-  margin-right: 10px;
+.tm-welcome {
+  max-width: 1200px;
+  background-color: none;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.gallery div {
+.tm-section-header {
+  display: inline-block;
+  background-color: #c99;
+  color: white;
+  padding: 30px 90px 30px 30px;
+  margin: 0;
+}
+
+.tm-section-header-small {
+  font-size: 1.4rem;
+  padding: 25px 150px 25px 30px;
+}
+
+.tm-header-floating {
+  z-index: 100;
+  top: -30px;
+}
+
+.tm-welcome-row {
+  margin-top: 128px;
+  margin-bottom: 10px;
+}
+
+.tm-welcome-row-2 { 
+  margin-bottom: 45px; 
+}
+
+.tm-article-title {
   margin-bottom: 30px;
+  transition: all 0.3s ease;
 }
 
-.gallery img {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
-  width: auto; 
-  height: auto;
-  cursor: pointer;
-  max-width: 100%;
+.tm-media {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 70px;
 }
 
-#row #gallery h2 p {
-  float: left !important;
+.tm-media-v-center { 
+  align-items: center; 
 }
 
+.tm-media-img {
+  margin-right: 20px;
+  width: 55%;
+  max-width: 300px;
+}
+
+.tm-media-body {
+  margin-right: 10px;
+  width: 45%;
+}
 
 
 
