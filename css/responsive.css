@@ -65,6 +65,11 @@
 }
 
 /*** Stock ***/
+@media (min-width: 1900px) {
+  .tm-media {
+    margin-right: -190px;
+  }
+}
 @media (max-width: 500px) {
   .tm-section-header { 
     padding: 20px; 
