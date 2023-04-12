@@ -16,6 +16,14 @@
     new WOW().init();
 
 
+    // Language
+    $(function(){
+        $('.selectpicker').selectpicker();
+    });
+
+
+
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
