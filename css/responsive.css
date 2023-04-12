@@ -18,9 +18,14 @@
   
 }
 
-@media (min-width: 768px) {
-
+/* Language */
+@media (max-width:767px) {
+  button.color-change {
+      background-color: var(--secondary);
+  }
 }
+
+
 
 /*** Header carousel ***/
 @media (max-width: 768px) {
