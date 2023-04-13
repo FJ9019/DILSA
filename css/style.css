@@ -78,6 +78,12 @@
     border-radius: 0px;
 }
 
+/*** Language ***/
+.nav-link {
+  color: red;
+  margin-left: 80%;
+  font-size: 18px;
+}
 
 /*** Navbar ***/ 
 .logoimage {
@@ -413,16 +419,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 /** Services **/
 h1 {
     font-size: 24px;
@@ -624,6 +620,12 @@ input[type=checkbox]:checked + label {
   margin-left: 14px;
   margin-right: 14px;
 } 
+
+.container-fluid 
+.col-lg-3 {
+  margin: auto;
+}
+
 .collapse-img img {
     width: 100%;
     max-width: 100%;

@@ -23,6 +23,15 @@
   button.color-change {
       background-color: var(--secondary);
   }
+
+  .nav-link {
+    color: red;
+    margin-left: 20%;
+    font-size: 18px;
+    display: block;
+    position: absolute;
+    margin-top: -22px;
+  }
 }
 
 
