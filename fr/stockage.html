@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
-    <title>Diesel Injection Laboratory</title>
+    <title>Laboratoire d'Injection Diesel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon-32x32.png" rel="icon">
+    <link href="../img/favicon-32x32.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +19,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -37,24 +38,35 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Chargement...</span>
         </div>
     </div>
     <!-- Spinner End -->
-
 
     <!-- Navbar Start -->
     <div class="header">
         <a href="index.html" class="logo">
             <img src="img/DIL logo.png" class="logoimage"></a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler77" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> 
+            <div class="dropdown" style="display: inline-block;">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink78" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink78"> 
+                    <a class="dropdown-item" href="../index.html"><span class="flag-icon flag-icon-us"></span> English</a> 
+                    <a class="dropdown-item" href="index.html"><span class="flag-icon flag-icon-fr"></span> Français</a>
+                </div>
+            </div>
+            <span class="navbar-toggler-icon"></span> 
+        </button> 
+
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="active"><a href="stock.html">Stock</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li class="active"><a href="stockage.html">Stockage</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="contactez-nous.html">Contactez-Nous</a></li>
         </ul>
     </div>
     <!-- Navbar End -->
@@ -68,10 +80,10 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Diesel Laboratory</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Qualified Diesel Repair/Sales Center</h1>
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Meilleur Laboratoire Diesel</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Centre Qualifié De Diesel Réparation/Vente</h1>
                                 <p class="fs-5 text-white mb-4 pb-2"><br><br></p>
-                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="apropos.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En Savoir Plus</a>
                             </div>
                         </div>
                     </div>
@@ -83,10 +95,10 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Diesel Laboratory</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Qualified Diesel Repair/Sales Center</h1>
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Meilleur Laboratoire Diesel</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Centre Qualifié De Diesel Réparation/Vente</h1>
                                 <p class="fs-5 text-white mb-4 pb-2"><br><br></p>
-                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="apropos.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En Savoir Plus</a>
                             </div>
                         </div>
                     </div>
@@ -94,13 +106,13 @@
             </div>
         </div>
     </div>
-   <!-- Carousel End -->
+    <!-- Carousel End -->
     
-<!-- Stock Section -->
-<section class="tm-welcome">
+    <!-- Stock Section -->
+    <section class="tm-welcome">
     <div class="row">
         <div class="col-12">
-            <h2 class="tm-section-header tm-header-floating">Some Sample Of Our Stock</h2>         
+            <h2 class="tm-section-header tm-header-floating">Quelques Échantillons De Notre Stock</h2>         
         </div>
     </div>
     
@@ -109,37 +121,37 @@
             <img src="img/img-3x2-01.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">Bosch Injector / Pump Injector</h3></a>
-                <p>Part Number: 0445110369 <br>
-                   Part Number: 0445010508
+                <p>Numéro d'Article: 0445110369 <br>
+                   Numéro d'Article: 0445010508
                 </p>
-                <p>Compatibility: <strong>AMAROK</strong></p>
+                <p>Compatibilité: <strong>AMAROK</strong></p>
             </div>
         </article>
         <article class="col-lg-6 tm-media">
             <img src="img/img-3x2-02.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">VDO Injector / VDO Pump Injector</h3></a>
-                <p>Part Number: A2C59517051 <br>
-                   Part Number: A2C59517043 
+                <p>Numéro d'Article: A2C59517051 <br>
+                   Numéro d'Article: A2C59517043 
                 </p>
-                <p>Compatibility: <strong></strong></p>
+                <p>Compatibilité: <strong></strong></p>
             </div>
         </article>
         <article class="col-lg-6 tm-media">
             <img src="img/img-3x2-03.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">Denso Injector / Denso Pump Injector</h3></a>
-                <p>Part Number: 9729505-052 <br>
-                   Part Number: 9729400-0902</p>
-                   <p>Compatibility: <strong>TOYOTA</strong></p>
+                <p>Numéro d'Article: 9729505-052 <br>
+                   Numéro d'Article: 9729400-0902</p>
+                   <p>Compatibilité: <strong>TOYOTA</strong></p>
             </div>
         </article>
         <article class="col-lg-6 tm-media">
             <img src="img/img-3x2-04.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">Denso Injector</h3></a>
-                <p>Part Number: 095000-3090</p>
-                <p>Compatibility: <strong>HINO</strong></p>
+                <p>Numéro d'Article: 095000-3090</p>
+                <p>Compatibilité: <strong>HINO</strong></p>
             </div>
         </article>
 
@@ -147,18 +159,18 @@
             <img src="img/img-3x2-05.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">Bosch Injector</h3></a>
-                <p>Part Number: 0 445 110 293 <br>
+                <p>Numéro d'Article: 0 445 110 293 <br>
                 </p>
-                <p>Compatibility: <strong>JMC</strong></p>
+                <p>Compatibilité: <strong>JMC</strong></p>
             </div>
         </article>
         <article class="col-lg-6 tm-media">
             <img src="img/img-3x2-06.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">Bosch Injector</h3></a>
-                <p>Part Number: 0 445 110 249 <br>
+                <p>Numéro d'Article: 0 445 110 249 <br>
                 </p>
-                <p>Compatibility: <strong>FORD / MAZDA</strong></p>
+                <p>Compatibilité: <strong>FORD / MAZDA</strong></p>
             </div>
         </article>
 
@@ -166,32 +178,32 @@
             <img src="img/img-3x2-07.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">Bosch Injector Pump</h3></a>
-                <p>Part Number: 0 445 010 107 <br>
+                <p>Numéro d'Article: 0 445 010 107 <br>
                 </p>
-                <p>Compatibility: <strong>FORD / MAZDA</strong></p>
+                <p>Compatibilité: <strong>FORD / MAZDA</strong></p>
             </div>
         </article>
         <article class="col-lg-6 tm-media">
             <img src="img/img-3x2-08.png" alt="Welcome image" class="img-fluid tm-media-img" />
             <div class="tm-media-body">
                 <a class="tm-article-link"><h3 class="tm-article-title text-uppercase">DENSO Injector</h3></a>
-                <p>Part Number: 095000-9780<br>
+                <p>Numéro d'Article: 095000-9780<br>
                 </p>
-                <p>Compatibility: <strong>TOYOTA 1VD</strong></p>
+                <p>Compatibilité: <strong>TOYOTA 1VD</strong></p>
             </div>
         </article>
     </div>
     
-</section>
-<!-- End Stock Section -->
-
+    </section>
+    <!-- End Stock Section -->
+        
 
 	<!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
+                    <h4 class="text-light mb-4">Adresse</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>29, Rue Lafleur Ducheine / 29, Rue Chareron</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> 2813-2084 / 2233-2084 / 3784-2084</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@dieselinjectionlaboratory.com</p>
@@ -203,21 +215,21 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Opening Hours</h4>
-                    <h6 class="text-light">Monday - Friday:</h6>
+                    <h4 class="text-light mb-4">Horaires d'Ouvertures</h4>
+                    <h6 class="text-light">Lundi - vendredi:</h6>
                     <p class="mb-4">08.00 AM - 03.00 PM</p>
-                    <h6 class="text-light">Saturday:</h6>
+                    <h6 class="text-light">Samedi:</h6>
                     <p class="mb-0">08.00 AM - 12.00 PM</p><br>
-					<h6 class="text-light">Sunday:</h6>
-                    <p class="mb-0">Closed</p>
+					<h6 class="text-light">Dimanche:</h6>
+                    <p class="mb-0">Fermé</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link">Diagnostic Test</a>
-                    <a class="btn btn-link">Injector Repair/Sale</a>
-                    <a class="btn btn-link">Injection Pump Repair/Sale</a>
-                    <a class="btn btn-link">Turbocharger Repair/Sale</a>
-                    <a class="btn btn-link">Sale of Diesel Additive</a>
+                    <a class="btn btn-link">Test Diagnostique</a>
+                    <a class="btn btn-link">Réparation/Vente d'Injecteurs</a>
+                    <a class="btn btn-link">Réparation/Vente de pompe à injection</a>
+                    <a class="btn btn-link">Réparation/Vente de Turbocompresseurs</a>
+                    <a class="btn btn-link">Vente d'additif Diesel</a>
                 </div>
             </div>
         </div>
@@ -230,7 +242,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Diesel Injection Laboratory S.a</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">Laboratoire d'Injection Diesel S.A</a>, All Right Reserved.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a class="border-bottom" href="#">Jerry Fenelus</a>
@@ -256,8 +268,13 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
+    <!-- JS Language -->
+    <script src="../assets/js/popper.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+
     <!-- Template Javascript -->
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
