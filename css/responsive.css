@@ -138,6 +138,10 @@
   }
 }
 
+.card_text {
+  margin-top: 12px;
+}
+
 /*** Contact Form ***/
 @media only screen and (max-width: 768px){
   .styled-input {
@@ -168,4 +172,12 @@
     height: auto; 
     border-radius: 8px;
     background-color: #e1e1e1;
+}
+
+.d-flex {
+  margin-bottom: 20px !important;
+}
+
+.col-lg-3 {
+  margin-top: 20px !important;
 }
