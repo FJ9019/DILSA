@@ -206,6 +206,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+  .logoimage {
+    margin-left: 50px;
+    position: relative;
+    width: 199px;
+  }
+
+  .owl-carousel-item {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
   .section-title {
     font-size: 22px;
   }

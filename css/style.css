@@ -110,10 +110,8 @@
 }
 
 /*** Language ***/
-.nav-link {
-  color: red;
-  margin-left: 80%;
-  font-size: 18px;
+.flag-icon {
+  border-radius: 5px;
 }
 
 /*** Navbar ***/ 
@@ -233,10 +231,7 @@
 
 
 /*** Header carousel ***/
-.owl-carousel-item {
-  margin-left: 14px;
-  margin-right: 14px;
-}
+
 
 .header-carousel .owl-nav {
     position: absolute;
@@ -340,16 +335,23 @@
 
 
 /** DILSA Text **/
-.service-heading h2 {
+.home-wrapper {
+  text-align: center !important;
+}
+
+.home-heading h2 {
   margin-left: -30px !important;
 }
 
-.service-footer  {
-  margin-left: 300px !important;
+/* .dilsa-text p {
+  color: red ;
 }
+*/
 
-.service-wrapper .service-footer {
+.home-wrapper .dilsa-text {
   max-width: 720px;
+  margin:auto;
+  margin-top: 12px;
 }
 
 .service-work.card {
