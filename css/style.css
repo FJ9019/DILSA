@@ -1,40 +1,40 @@
 /********** Template CSS **********/
 :root {
-    --primary: #a5c9e3;
-    --secondary: #1a398b;
-    --light: #F2F2F2;
-    --dark: #111111;
-    --green: #47a281;
-    --brown: #de684a;
+  --primary: #a5c9e3;
+  --secondary: #1a398b;
+  --light: #F2F2F2;
+  --dark: #111111;
+  --green: #47a281;
+  --brown: #de684a;
 
 /********** Font Weight ***********/
---font-semi-bold: 600;    
+  --font-semi-bold: 600;    
 
 
 /********** Colores ***********/
---dark-color: #141414;
---dark-color-light: #8A8A8A;
---dark-color-lighten: #F2F2F2;
---white-color: #FFF;
+  --dark-color: #141414;
+  --dark-color-light: #8A8A8A;
+  --dark-color-lighten: #F2F2F2;
+  --white-color: #FFF;
 
 
 /********** Font **************/
---h1-font-size: .98rem;
---h2-font-size: .95rem;
---h3-font-size: 5px;
+  --h1-font-size: .98rem;
+  --h2-font-size: .95rem;
+  --h3-font-size: 5px;
 
 
 /********** Margenes **************/
---mb-1: .5rem;
---mb-2: 1rem;
---mb-3: 1.5rem;
---mb-4: 2rem;
---mb-5: 2.5rem;
---mb-6: 3rem;
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
 
 
 /********** Rotate img **************/
---rotate-img: rotate(-30deg);
+  --rotate-img: rotate(-30deg);
 
 }
 
@@ -235,7 +235,7 @@
 
 .header-carousel .owl-nav {
   position: absolute;
-  top: 50%;
+  top: 70%;
   right: 8%;
   transform: translateY(-50%);
   display: flex;

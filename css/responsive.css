@@ -6,14 +6,14 @@
   }
 
   .header li a {
-    padding: 20px 30px;
+    padding: 10px 20px;
+    margin-top: 6px;
   }
 
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
-    margin-right: 65px;
   }
 
   .header .menu-icon {
@@ -248,12 +248,9 @@
 
 @media screen and (min-width: 1024px) {
 
-  .menu li a .button-lang {
-    color: red;
-  }
-
   .header li a {
     margin-top: 14px;
+    margin-right: 20px;
   }
 
   .logoimage {
