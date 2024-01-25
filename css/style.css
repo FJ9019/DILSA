@@ -232,10 +232,11 @@
 
 /*** Header carousel ***/
 .slider {
-  width: 100%;
-  position: absolute;
-  top: 90px;
-  
+  position: relative;
+  top: 70%;
+  transform: translateY(-5%);
+  display: flex;
+  flex-direction: column;
 }
 
 .slider__component {
