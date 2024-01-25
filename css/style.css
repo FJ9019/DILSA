@@ -266,18 +266,7 @@
   background-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-@media (min-width: 0px) and (max-width: 768px) {
-  .slider__component .flickity-page-dots li {
-    width: 12px;
-    height: 12px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .slider__component .flickity-page-dots li {
-    width: 14px;
-    height: 14px;
-  }
-}
+
 .slider__component .flickity-page-dots li.is-selected {
   opacity: 1;
   border: 2px solid white;
@@ -390,16 +379,7 @@
   opacity: 0;
   visibility: 0;
 }
-@media (min-width: 0px) and (max-width: 768px) {
-  .slider__item__text h1 {
-    font-size: 8vw;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .slider__item__text h1 {
-    font-size: 6vw;
-  }
-}
+
 .slider__item__text p {
   font-family: "Nunito", sans-serif;
   color: white;
@@ -411,16 +391,7 @@
   opacity: 0;
   visibility: 0;
 }
-@media (min-width: 0px) and (max-width: 768px) {
-  .slider__item__text p {
-    width: 100%;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .slider__item__text p {
-    width: 50%;
-  }
-}
+
 .slider__item__text a {
   font-family: "Nunito", sans-serif;
   color: white;
@@ -439,16 +410,7 @@
   opacity: 0;
   visibility: 0;
 }
-@media (min-width: 0px) and (max-width: 768px) {
-  .slider__item__text a {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .slider__item__text a {
-    font-size: 1.2rem;
-  }
-}
+
 .slider__item__text a:hover {
   color: white;
   background-color: var(--color-secundary);
@@ -462,11 +424,7 @@
   position: absolute;
   transform: translateY(-50%);
 }
-@media (min-width: 0px) and (max-width: 768px) {
-  .slider__controls {
-    display: none;
-  }
-}
+
 .slider__controls.is-prev {
   left: 0px;
 }
@@ -490,20 +448,7 @@
   justify-content: center;
   transition: all 0.3s ease-in-out;
 }
-@media (min-width: 0px) and (max-width: 768px) {
-  .slider__controls button {
-    font-size: 1.4rem;
-    width: 36px;
-    height: 36px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .slider__controls button {
-    font-size: 1.6rem;
-    width: 46px;
-    height: 46px;
-  }
-}
+
 .slider__controls button:hover {
   color: var(--color-secundary);
   transition: all 0.3s ease-in-out;

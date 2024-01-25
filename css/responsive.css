@@ -63,6 +63,86 @@
 
 
 /*** Header carousel ***/
+@media (min-width: 0px) and (max-width: 768px) {
+  .slider__component .flickity-page-dots li {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slider__component .flickity-page-dots li {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .slider__component {
+    width: 100%
+  }
+  
+  .slider__item__text h1 {
+    font-size: 8vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slider__item__text h1 {
+    font-size: 6vw;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .slider__item__text p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slider__item__text p {
+    width: 50%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .slider__item__text a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slider__item__text a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .slider__controls {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .slider__controls button {
+    font-size: 1.4rem;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slider__controls button {
+    font-size: 1.6rem;
+    width: 46px;
+    height: 46px;
+  }
+}
+
+/* END Carousel */
+
+
+
 @media (max-width: 768px) {
 
 
@@ -72,6 +152,11 @@
     
     .dilsa-text  {
       text-align:center;
+    }
+
+    .typo-space-line {
+      font-size: 16px;
+      text-align: center !important;
     }
 
     /*** Patner Slide ***/
