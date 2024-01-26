@@ -21,6 +21,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
     <!-- Libraries Stylesheet -->
     <link href="../lib/animate/animate.min.css" rel="stylesheet">
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -73,40 +77,102 @@
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="../img/stock-1.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Meilleur Laboratoire Diesel</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Centre Qualifié De Diesel Réparation/Vente</h1>
-                                <p class="fs-5 text-white mb-4 pb-2"><br><br></p>
-                                <a href="apropos.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En Savoir Plus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+     <main class="slider">
+        <section class="slider__component js-slider">
+            <!--LOADER-->
+            <div class="slider__loader js-slider-loader" role="loader"></div>
+            <!--LOADER-->
+    
+            <!--CONTROLS-->
+            <div class="slider__controls is-prev" role="controls">
+                <button type="button" class="js-slider-button-prev">
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                </button>
             </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="../img/stock-2.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Meilleur Laboratoire Diesel</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Centre Qualifié De Diesel Réparation/Vente</h1>
-                                <p class="fs-5 text-white mb-4 pb-2"><br><br></p>
-                                <a href="apropos.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">En Savoir Plus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="slider__controls is-next" role="controls">
+                <button type="button" class="js-slider-button-next">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </button>
             </div>
-        </div>
-    </div>
+            <!--CONTROLS-->
+    
+            <article class="slider__item" role="item" data-num="1">
+                <!--IMAGE-->
+                <div class="slider__item__image is-background">
+                    <img src="/img/carousel-bg-1.jpg" alt="">
+                </div>
+                <!--IMAGE-->
+    
+                <!--TEXT-->
+                <div class="slider__item__text">
+                    <span>Meilleur Laboratoire Diesel</span>
+                    <h1>Centre Qualifié <br>De Diesel<br> Réparation/Vente</h1>
+    
+                    <a href="apropos.html" role="button">
+                        En Savoir Plus
+                    </a>
+                </div>
+                <!--TEXT-->
+            </article>
+    
+            <article class="slider__item" role="item" data-num="2">
+                <!--IMAGE-->
+                <div class="slider__item__image is-background">
+                    <img src="/img/carousel-bg-2.jpg" alt="">
+                </div>
+                <!--IMAGE-->
+    
+                <!--TEXT-->
+                <div class="slider__item__text">
+                    <span>Meilleur Laboratoire Diesel</span>
+                    <h1>Centre Qualifié <br>De Diesel<br> Réparation/Vente</h1>
+    
+                    <a href="apropos.html" role="button">
+                        En Savoir Plus
+                    </a>
+                </div>
+                <!--TEXT-->
+            </article>
+    
+            <article class="slider__item" role="item" data-num="3">
+                <!--IMAGE-->
+                <div class="slider__item__image is-background">
+                    <img src="/img/carousel-bg-3.jpg" alt="">
+                </div>
+                <!--IMAGE-->
+    
+                <!--TEXT-->
+                <div class="slider__item__text">
+                    <span>Meilleur Laboratoire Diesel</span>
+                    <h1>Centre Qualifié <br>De Diesel<br> Réparation/Vente</h1>
+    
+                    <a href="apropos.html" role="button">
+                        En Savoir Plus
+                    </a>
+                </div>
+                <!--TEXT-->
+            </article>
+    
+            <article class="slider__item" role="item" data-num="4">
+                <!--IMAGE-->
+                <div class="slider__item__image is-background">
+                    <img src="/img/carousel-bg-4.jpg" alt="">
+                </div>
+                <!--IMAGE-->
+    
+                <!--TEXT-->
+                <div class="slider__item__text">
+                    <span>Meilleur Laboratoire Diesel</span>
+                    <h1>Centre Qualifié <br>De Diesel<br> Réparation/Vente</h1>
+    
+                    <a href="apropos.html" role="button">
+                        En Savoir Plus
+                    </a>
+                </div>
+                <!--TEXT-->
+            </article>
+        </section>
+    </main>
     <!-- Carousel End -->
     
     <!-- Stock Section -->
@@ -272,6 +338,13 @@
     <script src="../lib/waypoints/waypoints.min.js"></script>
     <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imgLiquid/0.9.944/js/imgLiquid-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imgLiquid/0.9.944/js/imgLiquid-min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/4643810438.js"></script>
+      <script  src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-0347ddf4-49c5-d03f-2920-2afd86ecb660" crossorigin></script>
 
     <!-- JS Language -->
     <script src="../assets/js/popper.js"></script>
