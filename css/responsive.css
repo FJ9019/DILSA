@@ -131,7 +131,7 @@
 
     .typo-space-line {
       font-size: 16px;
-      text-align: center !important;
+      text-align: center;
     }
 
     /*** Patner Slide ***/
@@ -285,6 +285,10 @@
   .header li a {
     margin-top: 14px;
     margin-right: 20px;
+  }
+
+  .header ul {
+    margin-right: 30px;
   }
 
   .logoimage {

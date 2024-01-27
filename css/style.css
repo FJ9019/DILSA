@@ -6,6 +6,8 @@
   --dark: #111111;
   --green: #47a281;
   --brown: #de684a;
+  --red: #da2c4d;
+	--yellow: #f8ab37;
 
 /********** Font Weight ***********/
   --font-semi-bold: 600;    
@@ -38,21 +40,89 @@
 
 }
 
-
-.fw-medium {
-  font-weight: 600 !important;
+.progress-wrap {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	border-radius: 50px;
+	box-shadow: inset  0 0 0 2px rgba(255,255,255,0.2);
+	z-index: 10000;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15px);
+	-webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
-.fw-semi-bold {
-  font-weight: 700 !important;
+.progress-wrap.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
 }
 
-.back-to-top {
-  position: fixed;
-  display: none;
-  right: 45px;
-  bottom: 45px;
-  z-index: 99;
+.progress-wrap::after {
+	position: absolute;
+	font-family: 'unicons';
+	content: '\e84b';
+	text-align: center;
+	line-height: 46px;
+	font-size: 24px;
+	color: var(--red);
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.progress-wrap:hover::after {
+	opacity: 0;
+}
+
+.progress-wrap::before {
+	position: absolute;
+	font-family: 'unicons';
+	content: '\e84b';
+	text-align: center;
+	line-height: 46px;
+	font-size: 24px;
+	opacity: 0;
+	background-image: linear-gradient(298deg, var(--red), var(--yellow));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.progress-wrap:hover::before {
+	opacity: 1;
+}
+
+.progress-wrap svg path { 
+	fill: none; 
+}
+
+.progress-wrap svg.progress-circle path {
+	stroke: var(--red);
+	stroke-width: 4;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 
 
@@ -71,43 +141,6 @@
 }
 
 
-/*** Button ***/
-.btn {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-  transition: .5s;
-}
-
-.btn.btn-primary,
-.btn.btn-secondary {
-  color: #FFFFFF;
-}
-
-.btn-square {
-  width: 38px;
-  height: 38px;
-}
-
-.btn-sm-square {
-  width: 32px;
-  height: 32px;
-}
-
-.btn-lg-square {
-  width: 48px;
-  height: 48px;
-}
-
-.btn-square,
-.btn-sm-square,
-.btn-lg-square {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: normal;
-  border-radius: 0px;
-}
 
 /*** Language ***/
 .flag-icon {
@@ -133,6 +166,7 @@
   list-style: none;
   overflow: hidden;
   background-color: #fff;
+  margin-top: 10px;
 }
 
 .header li a {
@@ -443,7 +477,7 @@
   padding: 0px;
   position: relative;
   text-align: center;
-  background-color: var(--secondary);
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -559,7 +593,9 @@
   transition: .5s;
 }
 
+/* Section Card */
 
+/* End Section Card */
 /** Stock **/
 
 
