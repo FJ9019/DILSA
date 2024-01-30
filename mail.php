@@ -40,12 +40,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // ...
 
     // Redirect back to the contact page with a success message
-    header('Location: contact.html?success=true');
+    header('Location: contact.html');
     exit;
 
 } else {
     // Redirect back to the contact page with an error message
-    header('Location: contact.html?error=true');
+    header('Location: contact.html');
     exit;
 }
 ?>
