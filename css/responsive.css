@@ -296,6 +296,7 @@
     font-size: 14px;
     width: 110%;
   }
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -375,26 +376,50 @@
 }
 
 /*** Contact Form ***/
-@media only screen and (max-width: 768px){
-  .styled-input {
-      width:100%;
-  }
+@media (max-width: 575.99px) {
+	.section-contact {
+	  padding: 80px 60px;
+	}
 
-  .main h5 {
-    display: block;
-    width: 86%;
-    margin: 0 20px;
-    color: #9b9b9b;
-    font-size: 18px;
-  }
+	.section-contact .header-section .title {
+	  font-size: 29px;
+	}
+
+	.section-contact .header-section .big-title {
+	  font-size: 70px;
+	}
+
+	.section-contact .header-section .description {
+		font-size: 14px;
+	}
 }
 
-@media (max-width: 768px) {
-  .submit-btn {
-      width:100%;
-      float: none;
-      text-align:center;
-  }
+@media (min-width: 576px) and (max-width: 767.99px) {
+	.section-contact {
+	  padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+	  font-size: 45px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 100px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.section-contact {
+	  padding: 80px 60px;
+	}
+
+	.section-contact .header-section .title {
+	  font-size: 45px;
+	}
+
+	.section-contact .header-section .big-title {
+		font-size: 100px;
+	}
 }
 
 /*** Footer ***/
