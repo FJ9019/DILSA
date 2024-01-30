@@ -167,43 +167,63 @@
     <!-- Carousel End -->
     
      <!-- Contact Form -->
-     <div class="container">
-        <div class="row">
-                <h1><strong>CONTACTEZ-NOUS</strong></h1>
-        </div>
-        <div class="row">
-                <h4 style="text-align:center">Nous aimerions recevoir de vos nouvelles!</h4>
-        </div>
-        <div class="row input-container">
-                <div class="col-xs-12">
-                    <div class="styled-input wide">
-                        <input type="text" required />
-                        <label>Nom</label> 
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="styled-input">
-                        <input type="text" required />
-                        <label>E-mail</label> 
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="styled-input" style="float:right;">
-                        <input type="text" required />
-                        <label>Numéro de téléphone</label> 
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="styled-input wide">
-                        <textarea required></textarea>
-                        <label>Message</label>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="btn-lrg submit-btn">Envoyer le message</div>
-                </div>
-        </div>
-    </div>
+	<div class="container">
+			<div class="section-contact">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-10 col-xl-8">
+						<div class="header-section text-center">
+							<h2 class="title">Prendre Contact
+								<span class="dot"></span>
+								<span class="big-title">CONTACT</span>
+							</h2>
+							<p class="description">N'hésitez pas à nous contacter !</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="form-contact">
+					<form action="mail.php" class="form__contact" id="contact-form" method="POST">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="single-input">
+									<i class="fas fa-user"></i>
+									<input type="text" name="name" placeholder="ENTREZ VOTRE NOM">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="single-input">
+									<i class="fas fa-envelope"></i>
+									<input type="text" name="email" placeholder="ENTREZ VOTRE ADRESSE ÉLECTRONIQUE">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="single-input">
+									<i class="fas fa-phone"></i>
+									<input type="text" name="phone" placeholder="SAISISSEZ VOTRE NUMÉRO DE TÉLÉPHONE">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="single-input">
+									<i class="fas fa-check"></i>
+									<input type="text" name="subject" placeholder="ENTREZ VOTRE SUJET">
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="single-input">
+									<i class="fas fa-comment-dots"></i>
+									<textarea name="message" placeholder="SAISISSEZ VOTRE MESSAGE"></textarea>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="submit-input text-center">
+									<input type="submit" name="submit" value="SOUMETTRE MAINTENANT">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
     <!-- End Contact Form -->
         
 	<!-- Footer Start -->

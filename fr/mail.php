@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit;
     }
 
-    $to = 'jfenelus@jfenelus.com'; // Replace with your email address
+    $to = 'jfenelus@jfenelus.com'; 
     $subject = "$subject";
     $body = "Name: $name\n";
     $body .= "Email: $email\n";
@@ -32,8 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         http_response_code(500);
         echo 'An error occurred while sending your message. Please try again later.';
     }
-
-       // Validate and sanitize the input data
+      // Validate and sanitize the input data
     // ...
 
     // Send the email
