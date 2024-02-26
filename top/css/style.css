@@ -11,14 +11,17 @@
 .main-top{
    background: #000000;
    padding: 10px 0px;
-   display: block;
+   position: fixed;
+   top: 0;
+   width: 100%;
 }
 
-.offer-box,.slide {
+.offer-box {
    color: #FFFFFF;
    font-size: 13px;
    padding: 2px 15px;
    font-family: 'Poppins', sans-serif;
+   margin-left: 50px;
 }
 
 .offer-box li {
