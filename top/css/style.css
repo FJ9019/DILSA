@@ -1,0 +1,42 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700');
+
+
+
+/*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
+.main-top{
+   background: #000000;
+   padding: 10px 0px;
+   display: block;
+   position: relative;
+   margin-bottom: 50px;
+}
+
+.offer-box,.slide {
+   color: #FFFFFF;
+   font-size: 13px;
+   padding: 2px 15px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.offer-box li {
+   font-weight: 600;
+}
+
+.offer-box li i{
+   margin-right: 15px;
+   color: #b0b435;
+   font-size: 20px;
+}
+
+/* Navbar Adjusment =========================== */
+
+.offer-box{
+  position: relative;
+  overflow: hidden;
+}
+

@@ -1,0 +1,13 @@
+
+
+ @media only screen and (min-width: 280px) and (max-width: 599px) {
+
+     .offer-box li i{
+         font-size: 11px;
+    }
+     .offer-box li{
+         font-size: 9px;
+    }
+
+}
+ 
