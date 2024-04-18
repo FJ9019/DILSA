@@ -8,6 +8,8 @@
   --brown: #de684a;
   --red: #da2c4d;
 	--yellow: #f8ab37;
+  --cultured: hsl(200, 12%, 95%);
+  --bittersweet: hsl(5, 100%, 69%);
 
 /********** Font Weight ***********/
   --font-semi-bold: 600;    
@@ -24,6 +26,7 @@
   --h1-font-size: .98rem;
   --h2-font-size: .95rem;
   --h3-font-size: 5px;
+  --ff-roboto: 'Roboto', sans-serif;
 
 
 /********** Margenes **************/
@@ -33,6 +36,11 @@
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
+  --fs-7: 1.4rem;
+
+
+/********** Transition **************/
+--transition-2: 0.5s ease;  
 
 
 /********** Rotate img **************/
@@ -871,6 +879,50 @@ img {
 .section-contact .form-contact .submit-input input:hover {
   background-color: #07395c;
 }
+
+
+/* SALES PAGE */
+.product .section-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.product-list {
+  display: grid;
+  gap: 50px 25px;
+}
+
+.card-banner {
+  background: var(--cultured);
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.image-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: var(--transition-2);
+}
+
+.product-card:is(:hover, :focus),
+.image-contain {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Footer **/
 #container-fluid {
