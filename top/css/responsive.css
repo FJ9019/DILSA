@@ -32,4 +32,56 @@
         grid-template-columns: 1fr 1fr;
     }
 }
- 
+
+
+@media(min-width: 768px){
+    /* Custom Property */
+    :root {
+        /* Typography */
+        --fs-2: 3rem;
+    }
+
+    /* Style */
+    .container {
+        max-width: 720px;
+    }
+}
+
+
+@media(min-width: 992px){
+    /* Custom Property */
+    :root {
+        /* Typography */
+        --fs-2: 2.4rem;
+    }
+
+    /* Style */
+    .container {
+        max-width: 970px;
+    }
+
+    /* Products */
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media(min-width: 1200px){
+    /* Custom Property */
+    :root {
+        /* Typography */
+        --fs-1: 5rem;
+        --fs-2: 3.6rem;
+    }
+
+    /* Style */
+    .container {
+        max-width: 1280px;
+    }
+
+    /* Products */
+    .product-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
