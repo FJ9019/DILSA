@@ -10,4 +10,26 @@
     }
 
 }
+
+
+/****** Media Queries Sales ******/
+@media (min-width: 575px){
+    /* Custom Property */
+    :root {
+        /* Typography */
+        --fs-1: 4rem;
+    }
+
+    /* Style */
+    .container {
+        max-width: 650px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    /* Products */
+    .product-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
  
