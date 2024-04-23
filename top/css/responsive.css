@@ -35,6 +35,12 @@
 }
 
 
+@media (max-width: 767px){
+    .product-list {
+        width: 92%;
+    }
+}
+
 @media(min-width: 768px){
     /* Custom Property */
     :root {
