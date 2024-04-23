@@ -897,6 +897,7 @@ img {
 .product-list {
   display: grid;
   gap: 50px 25px;
+  list-style-type: none;
 }
 
 .card-banner {
@@ -1001,7 +1002,8 @@ img {
 .card-cat {
   font-family: var(--ff-roboto);
   color: var(--onyx);
-  font-size: var(--fs-7);
+  font-size: 16px;
+  font-style: bold;
   margin-bottom: 12px;
 }
 
