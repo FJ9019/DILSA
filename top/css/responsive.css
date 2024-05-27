@@ -4,9 +4,11 @@
 
      .offer-box li i{
          font-size: 11px;
+         margin-left: 6px;
     }
      .offer-box li{
          font-size: 9px;
+         margin-left: 15px;
     }
 
 }
