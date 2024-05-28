@@ -33,6 +33,42 @@
 
 /* Language */
 @media (max-width:767px) {
+
+  /* POUP */
+  .contentbox {
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    margin-top: 50%;
+  }
+
+  .contentbox .imgbx {
+    height: 200px;
+    transform: translateY(-50px);
+  }
+
+  .contentbox .imgbx::before {
+    background: #fff;
+  }
+
+  .contentbox .contentgift {
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0;
+  }
+
+  .close {
+    top: -50px;
+    right: -10px;
+    background: #fff url(/img/close.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+  }
+
+  /* End POPUP */
+  
   button.color-change {
     background-color: var(--secondary);
   }

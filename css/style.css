@@ -1051,7 +1051,107 @@ img {
 
 
 
+/** POPUP **/
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1;
+}
 
+.contentbox {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contentbox .imgbx {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentbox .imgbx::before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #e7ffe0;
+  border-radius: 50%;
+}
+
+.contentbox .imgbx img {
+  position: relative;
+  max-width: 250px;
+  z-index: 1;
+}
+
+.contentbox .contentgift {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentbox .contentgift h3 {
+  color: #333;
+  line-height: 1em;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.contentbox .contentgift h2 {
+  font-size: 4em;
+  color: #ff4d54;
+  line-height: 1em;
+}
+
+.contentbox .contentgift h2 span {
+  color: #333;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.contentbox .contentgift p {
+  font-weight: 300;
+}
+
+.contentbox .contentgift a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff4d54;
+  color: #fff;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: #f3f3f3 url(/img/close.png);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+/** End POPUP **/
 
 
 /** Footer **/
@@ -1063,6 +1163,7 @@ img {
 .container-fluid 
 .col-lg-3 {
   margin: auto;
+  width: 30%;
 }
 
 .footer {
@@ -1087,31 +1188,25 @@ img {
   color: var(--primary);
 }
 
-.footer .btn.btn-link {
+.footer .btn.btn-f {
   display: block;
   margin-bottom: 5px;
   padding: 0;
-  cursor:default;
   text-align: left;
   color: #FFFFFF;
   font-size: 15px;
   font-weight: normal;
-  text-transform: capitalize;
-  transition: .3s;
+  cursor: default;
 }
 
-.footer .btn.btn-link::before {
-  position: relative;
+.footer .btn.btn-f::before {
   content: "\f105";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
+  cursor: default;
 }
 
-.footer .btn.btn-link:hover {
-  letter-spacing: 1px;
-  box-shadow: none;
-}
 
 .footer .copyright {
   padding: 25px 0;
