@@ -33,9 +33,6 @@
 
 /* Language */
 @media (max-width:767px) {
-  .header menu {
-    height: 500px !important;
-  }
 
   /* POUP */
   .contentbox {
